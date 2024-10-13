@@ -32,8 +32,8 @@ spec:
             memory: '500mi'
         ports:
         - containerPort: 8080
-      imagePullSecrets:
-      - name: regcred
+      #imagePullSecrets:
+      #- name: regcred
 
 
 
