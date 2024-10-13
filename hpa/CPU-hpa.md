@@ -31,10 +31,10 @@ spec:
 ### Siege is a stress tester for HTTP/HTTPS
 
 
-### If EKS or AKS Management Host OS is RHEL, then execute below commands
+### If EKS or AKS Management Host OS is Ubuntu, then execute below commands
 ```sh
-yum -y install epel-release
-yum -y install siege
+sudo apt update -y
+sudo apt install siege -y
 ```
 ### If EKS Management Host OS is Amazon Linux, then execute below commands
 ```sh
